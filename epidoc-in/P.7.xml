@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="P01200" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Ephebic<certainty cert="low" locus="value" match=".."/>
+            </rs> <rs type="textType">graffito</rs></title>
+            <editor>Joyce M. Reynolds</editor>             <editor role="translator" xml:id="edd">Joyce M. Reynolds, Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">P.7</idno>
+            <idno type="ircyr2012">P01200</idno>
+            <idno type="JMR">269 1/g</idno>
+            <idno type="Excel">706</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                    (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the
+                    URL <ref>http://inslib.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><msName>n/a</msName></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><material>Sandstone</material> 
+                              blocks, too high to measure, in the wall of the West Gate,
+                              inscribed, while in their present position, with <ref type="inscription" n="P00600">P.1</ref>, <ref type="inscription" n="P00700">P.2</ref>, <ref type="inscription" n="P00800">P.3</ref>, <ref type="inscription" n="P00900">P.4</ref>, <ref type="inscription" n="P01000">P.5</ref>, 
+                              <ref type="inscription" n="P01100">P.6</ref>, 
+                              <ref type="inscription" n="P01200">P.7</ref>,
+                              <ref type="inscription" n="P01300">P.8</ref>,
+                              <ref type="inscription" n="P01400">P.9</ref>, <ref type="inscription" n="P01410">P.10</ref>,
+                              <ref type="inscription" n="P01500">P.11</ref>,
+                              <ref type="inscription" n="P01600">P.12</ref>,
+                              <ref type="inscription" n="P01700">P.13</ref>,
+                              <ref type="inscription" n="P01800">P.14</ref>,
+                              <ref type="inscription" n="P01900">P.15</ref>,
+                              <ref type="inscription" n="P02000">P.16</ref>,
+                              <ref type="inscription" n="P02100">P.17</ref>,
+                              <ref type="inscription" n="P02200">P.18</ref>,
+                              <ref type="inscription" n="P02300">P.19</ref>,
+                              <ref type="inscription" n="P02400">P.20</ref>,
+                              <ref type="inscription" n="P02500">P.21</ref>,
+                              <ref type="inscription" n="P02600">P.22</ref>,
+                              <ref type="inscription" n="P02700">P.23</ref>,
+                              <ref type="inscription" n="P02800">P.24</ref>, 
+                              <ref type="inscription" n="P02900">P.26</ref>, 
+                              <ref type="inscription" n="P03000">P.27</ref>, <ref type="inscription" n="P03100">P.28</ref>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" key="litteris scariphatis">Graffitο</rs> on an unrusticated block in the podium, 
+                           three courses below <!--(1/f)--> <ref type="inscription" n="P01100">P.6</ref>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Square sigma;  L for ἔτους; several hands.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot.</origPlace>
+                     <origDate notAfter="0070" notBefore="0069" cert="low" evidence="internal date">C.E. 69/70 </origDate>
+                  </origin>
+                  
+                     
+                        <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="http://www.slsgazetteer.org/912">Ptolemais</placeName>: 
+                              <placeName type="monuList" ref="http://www.slsgazetteer.org/939">West Gate</placeName>, North tower, north wall. </p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot.</p>
+                        </provenance>
+                     
+                  
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+               <term>
+                        <placeName type="modernFindspot" ref="http://sws.geonames.org/89183">Tolmeita</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds).</creation></profileDesc>
+      <revisionDesc>
+         <change when="2013-08-22" who="TW">Tagged orig</change>
+         <change when="2012-11-05" who="GB">moved text-constituted-from to profileDesc/creation</change>
+         <change when="2012-10-16" who="GB">broke provenance events into multiple provenance elements</change>
+         <change when="2010-08-04" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2010-05-07" who="GB">metadata</change>
+         <change when="2010-03-30" who="GB">lemmatized</change>
+         <change when="2010-01-11" who="GB">checked commentary</change>
+         <change when="2009-12-27" who="CMR">tagged keywords; dimensions</change>
+         <change when="2009-07-16" who="Pietro">turned to XML and tidied</change>
+         <change when="2009-02-24" who="GB">mailmerged: created from template</change>
+      </revisionDesc>
+   </teiHeader><facsimile><graphic url="P_I_001" decls="#photograph"><desc>View</desc></graphic></facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p/>
+         </div>
+         
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+<ab>
+                    <lb n="1"/><date ref="https://godot.date/id/puESXHZfTKfs9yv8eWsbnh"><w lemma="ἔτος"><expan><abbr><am><g ref="symbols.xml#year"/></am></abbr><ex>ἔτους</ex></expan></w> <num value="40">μ</num></date> <orig>ν<unclear>α</unclear>σ</orig><gap reason="lost" quantity="3" unit="character"/><orig>ανε</orig>
+                    <lb n="2"/><orig>μλ<unclear>τι</unclear>ρ</orig> 
+                   <date ref="https://godot.date/id/YyiXejieQ9dgz48KjePXMf"><w lemma="ἔτος"><expan><abbr><am><g ref="symbols.xml#year"/></am></abbr><ex>ἔτους</ex></expan></w>
+                    <num value="100">ρ</num></date> <orig>μ</orig><gap reason="lost" quantity="1" unit="character"/><orig>ρι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+</div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head>
+            <p>. . . <date ref="https://godot.date/id/puESXHZfTKfs9yv8eWsbnh">Year 40</date> . . .<date ref="https://godot.date/id/YyiXejieQ9dgz48KjePXMf">Year 100</date> . . .</p>
+         </div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>Line 1: Probably year 40 (M); alternatively the figure has been lost and after (ἔτους) is the beginning of a name such as Μνασίας</p>
+            <p>Line 2, <!--Year 100 of the Actian era would be C.E. 69/70  -->; see commentary on <ref type="inscription" n="P00600">P.1</ref>.</p>
+         </div>
+         
+      </body>
+   </text>
+</TEI>
