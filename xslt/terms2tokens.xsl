@@ -4,9 +4,11 @@
 
     <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 
-    <xsl:variable name="dirpath">../dir.xml</xsl:variable>
-    <xsl:variable name="epidocpath">../epidoc-in/</xsl:variable>
-
+    <xsl:variable name="dirpath">../dir-ircyr.xml</xsl:variable>
+    <!--<xsl:variable name="epidocpath">../epidoc-in/</xsl:variable>-->
+    <!--<xsl:variable name="epidocpath">file:///Users/Gabriel.bodard/Desktop/iospe/kiln/webapps/ROOT/content/xml/tei/inscriptions/</xsl:variable>-->
+    <xsl:variable name="epidocpath">file:///Users/Gabriel.bodard/Documents/GitHub/kdl-ircyr-efes/webapps/ROOT/content/xml/epidoc/</xsl:variable>
+    
     <xsl:template match="/">
         <xsl:variable name="allwords">
             <xsl:element name="words">
@@ -35,7 +37,8 @@
                         </xsl:element>
                         <xsl:element name="lemma">
                             <xsl:for-each-group select="current-group()//@lemma" group-by=".">
-                                <xsl:value-of select="."/><xsl:text>, </xsl:text>
+                                <xsl:value-of select="."/>
+                                <xsl:if test="position() != last()"><xsl:text>, </xsl:text></xsl:if>
                             </xsl:for-each-group>
                         </xsl:element>
                     </xsl:element>
